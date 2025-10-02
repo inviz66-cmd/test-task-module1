@@ -41,5 +41,25 @@ class Program
         }
         doc.Save(outputXml);
         Console.WriteLine("Employee salary sums calculated. Output: " + outputXml);
+        // Шаг 3: расчет общей суммы salary всех employee и добавление атрибута amount в Pay исходного Data1.xml
+        decimal totalSum = 0;
+        foreach (var employee in doc.Descendants("Employee"))
+        {
+            var amountAttr = employee.Attribute("amount");
+            if (amountAttr != null && decimal.TryParse(amountAttr.Value.Replace('.',','), out decimal val))
+            {
+                totalSum += val;
+            }
+        }
+
+        // Открываем исходный Data1.xml, добавляем/обновляем атрибут amount в Pay
+        var sourceDoc = XDocument.Load(sourceXml);
+        var payElem = sourceDoc.Root;
+        if (payElem != null)
+        {
+            payElem.SetAttributeValue("amount", totalSum.ToString("F2"));
+            sourceDoc.Save(sourceXml);
+            Console.WriteLine($"Total salary sum added to Pay: {totalSum:F2}");
+        }
     }
 }

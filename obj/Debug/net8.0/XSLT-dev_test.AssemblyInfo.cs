@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XSLT-dev_test")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f660efb499cbcbb5961ac2a6fec899bb23d8af3b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b1d0aa3ce1777afde959dc1685cfb23e064832aa")]
 [assembly: System.Reflection.AssemblyProductAttribute("XSLT-dev_test")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XSLT-dev_test")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
