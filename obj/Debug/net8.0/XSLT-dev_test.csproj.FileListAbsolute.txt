@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\XSLT-dev_test\bin\Debug\net8.0\XSLT-dev_test.exe
+C:\Users\user\Documents\GitHub\XSLT-dev_test\bin\Debug\net8.0\XSLT-dev_test.deps.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\bin\Debug\net8.0\XSLT-dev_test.runtimeconfig.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\bin\Debug\net8.0\XSLT-dev_test.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\bin\Debug\net8.0\XSLT-dev_test.pdb
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.sourcelink.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\refint\XSLT-dev_test.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.pdb
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\XSLT-dev_test.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\obj\Debug\net8.0\ref\XSLT-dev_test.dll
