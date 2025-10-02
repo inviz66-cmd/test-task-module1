@@ -3,7 +3,7 @@
   
   <xsl:output method="xml" indent="yes"/>
   <xsl:key name="personKey" match="item" use="concat(@name, ' ', @surname)" />
-
+  <xsl:decimal-format name="format1"/>
   <xsl:template match="Pay">
     <Employees>
       <xsl:for-each select="descendant-or-self::item[
@@ -22,14 +22,14 @@
           <xsl:for-each select="key('personKey', concat(@name, ' ', @surname))">
             <salary>
               <xsl:attribute name="amount">
-                <xsl:value-of select="@amount"/>
+                <xsl:value-of select="format-number(translate(@amount, ',', '.'), '0.00', 'format1')"/>
               </xsl:attribute>
               <xsl:attribute name="mount">
                 <xsl:value-of select="@mount"/>
               </xsl:attribute>
             </salary>
           </xsl:for-each>
-          
+
         </Employee>
       </xsl:for-each>
     </Employees>
