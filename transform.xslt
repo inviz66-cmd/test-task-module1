@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
+  
+  <xsl:output method="xml" indent="yes"/>
+  <xsl:key name="personKey" match="item" use="concat(@name, ' ', @surname)" />
+  <xsl:decimal-format name="format1"/>
+  <xsl:template match="Pay">
+    <Employees>
+      <xsl:for-each select="descendant-or-self::item[
+          generate-id()
+          =
+          generate-id(key('personKey', concat(@name, ' ', @surname))[1])
+        ]">
+        <Employee>
+          <xsl:attribute name="name">
+            <xsl:value-of select="@name"/>
+          </xsl:attribute>
+          <xsl:attribute name="surname">
+            <xsl:value-of select="@surname"/>
+          </xsl:attribute>
+          
+          <xsl:for-each select="key('personKey', concat(@name, ' ', @surname))">
+            <salary>
+              <xsl:attribute name="amount">
+                <xsl:value-of select="format-number(translate(@amount, ',', '.'), '0.00', 'format1')"/>
+              </xsl:attribute>
+              <xsl:attribute name="mount">
+                <xsl:value-of select="@mount"/>
+              </xsl:attribute>
+            </salary>
+          </xsl:for-each>
+
+        </Employee>
+      </xsl:for-each>
+    </Employees>
+  </xsl:template>
+</xsl:stylesheet>

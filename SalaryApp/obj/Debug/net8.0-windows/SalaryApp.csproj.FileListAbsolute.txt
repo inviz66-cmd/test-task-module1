@@ -1,0 +1,15 @@
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\bin\Debug\net8.0-windows\SalaryApp.exe
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\bin\Debug\net8.0-windows\SalaryApp.deps.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\bin\Debug\net8.0-windows\SalaryApp.runtimeconfig.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\bin\Debug\net8.0-windows\SalaryApp.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\bin\Debug\net8.0-windows\SalaryApp.pdb
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.AssemblyInfoInputs.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.AssemblyInfo.cs
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.csproj.CoreCompileInputs.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.sourcelink.json
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\refint\SalaryApp.dll
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.pdb
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\SalaryApp.genruntimeconfig.cache
+C:\Users\user\Documents\GitHub\XSLT-dev_test\SalaryApp\obj\Debug\net8.0-windows\ref\SalaryApp.dll
